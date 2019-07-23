@@ -20,3 +20,16 @@ https://github.com/csilva2810/react-simple-boilerplate.git
 # remove .git repository and start your own
 rm -rf .git && git init
 ```
+
+## Commands
+
+```bash
+# install dependencies
+npm install
+
+# development
+npm run dev
+
+# production build
+npm run prod
+```
