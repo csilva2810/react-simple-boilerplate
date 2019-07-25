@@ -28,6 +28,7 @@ module.exports = {
     "jsx-a11y",
   ],
   "rules": {
+    "no-unused-vars": "warn",
     "indent": [
       "error",
       2
@@ -43,6 +44,13 @@ module.exports = {
     "comma-dangle": [
       "error",
       "always-multiline"
-    ]
-  }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect",
+    },
+  },
 };
